@@ -7,6 +7,7 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using adresyIOsoby.Models;
+using adresyIOsoby.ViewModel;
 
 namespace adresyIOsoby.Controllers
 {
@@ -46,11 +47,17 @@ namespace adresyIOsoby.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,Ulica,Miejscowosc,KodPocztowy")] Adress adress)
+        public ActionResult Create( AdressViewModel adress)
         {
             if (ModelState.IsValid)
             {
-                db.Adresy.Add(adress);
+                var adressEntity = new Adress();
+                adressEntity.Id = adress.Id;
+                adressEntity.KodPocztowy = adress.KodPocztowy;
+                adressEntity.Miejscowosc = adress.Miejscowosc;
+                adressEntity.Ulica = adress.Ulica;
+
+                db.Adresy.Add(adressEntity);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
