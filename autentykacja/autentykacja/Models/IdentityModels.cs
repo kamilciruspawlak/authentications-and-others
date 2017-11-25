@@ -29,5 +29,7 @@ namespace autentykacja.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<autentykacja.Models.Car> Cars { get; set; }
     }
 }

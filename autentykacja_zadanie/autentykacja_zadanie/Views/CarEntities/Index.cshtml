@@ -1,0 +1,77 @@
+﻿@model autentykacja_zadanie.ViewModels.VMCars
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+@foreach (var item in Model.CarList)
+{
+    <tr>
+        @if (Model.ShowIfAuth)
+        {
+        <th>
+            @Html.DisplayNameFor(model => item.DateCreate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => item.DateMod)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => item.isActive)
+        </th>
+        }
+        <th>
+            @Html.DisplayNameFor(model => item.Brand)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => item.Model)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => item.ModPerson)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => item.RegistrationNumber)
+        </th>
+        <th></th>
+    </tr>
+
+
+    <tr>
+@if (Model.ShowIfAuth)
+{
+        <td>
+            @Html.DisplayFor(modelItem => item.DateCreate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DateMod)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.isActive)
+        </td>
+}
+        <td>
+            @Html.DisplayFor(modelItem => item.Brand)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Model)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ModPerson)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RegistrationNumber)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+        </td>
+    </tr>
+    }
+
+</table>
