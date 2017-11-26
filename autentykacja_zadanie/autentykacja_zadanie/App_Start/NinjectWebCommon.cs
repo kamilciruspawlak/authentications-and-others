@@ -67,6 +67,7 @@ namespace autentykacja_zadanie.App_Start
         {
             kernel.Bind<ICarsRepository>().To<CarsRepository>();
             kernel.Bind<ICarBusinessLogic>().To<CarBusinessLogic>();
+            kernel.Bind<IEnginesRepository>().To<EnginesRepository>();
         }        
     }
 }

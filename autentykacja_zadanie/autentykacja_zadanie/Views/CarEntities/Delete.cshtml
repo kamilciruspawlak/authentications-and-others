@@ -1,5 +1,4 @@
-﻿@model autentykacja_zadanie.Models.CarEntity
-
+﻿@model autentykacja_zadanie.ViewModels.VMCars
 @{
     ViewBag.Title = "Delete";
 }
@@ -12,59 +11,59 @@
     <hr />
     <dl class="dl-horizontal">
         <dt>
-            @Html.DisplayNameFor(model => model.DateCreate)
+            @Html.DisplayNameFor(model => model.Car.DateCreate)
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.DateCreate)
+            @Html.DisplayFor(model => model.Car.DateCreate)
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.DateMod)
+            @Html.DisplayNameFor(model => model.Car.DateMod)
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.DateMod)
+            @Html.DisplayFor(model => model.Car.DateMod)
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.isActive)
+            @Html.DisplayNameFor(model => model.Car.isActive)
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.isActive)
+            @Html.DisplayFor(model => model.Car.isActive)
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.Brand)
+            @Html.DisplayNameFor(model => model.Car.Brand)
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.Brand)
+            @Html.DisplayFor(model => model.Car.Brand)
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.Model)
+            @Html.DisplayNameFor(model => model.Car.Model)
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.Model)
+            @Html.DisplayFor(model => model.Car.Model)
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.ModPerson)
+            @Html.DisplayNameFor(model => model.Car.ModPerson)
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.ModPerson)
+            @Html.DisplayFor(model => model.Car.ModPerson)
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.RegistrationNumber)
+            @Html.DisplayNameFor(model => model.Car.RegistrationNumber)
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.RegistrationNumber)
+            @Html.DisplayFor(model => model.Car.RegistrationNumber)
         </dd>
 
     </dl>

@@ -121,16 +121,14 @@ namespace autentykacja_zadanie.Controllers
         // GET: CarEntities/Delete/5
         public ActionResult Delete(int? id)
         {
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
-            CarEntity carEntity = _carsRepository.GetWhere(x => x.Id == id.Value).FirstOrDefault();
-            if (carEntity == null)
+            var carVM = new VMCars();
+            carVM.Car = _carsRepository.GetWhere(x => x.Id == id.Value).FirstOrDefault();
+            carVM.ShowIfAuth = _carBusinessLogic.CheckIfUserIsAuthorize();
+            if (carVM.Car == null)
             {
                 return HttpNotFound();
             }
-            return View(carEntity);
+            return View(carVM);
         }
 
         // POST: CarEntities/Delete/5
@@ -143,6 +141,6 @@ namespace autentykacja_zadanie.Controllers
             return RedirectToAction("Index");
         }
 
-       
+
     }
 }

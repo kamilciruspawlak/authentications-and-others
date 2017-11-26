@@ -1,0 +1,82 @@
+﻿@model autentykacja_zadanie.ViewModels.VMEngines
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Engine</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Engine.DateCreate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Engine.DateCreate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Engine.DateMod)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Engine.DateMod)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Engine.isActive)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Engine.isActive)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Engine.Capacity)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Engine.Capacity)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Engine.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Engine.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Engine.Model)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Engine.Model)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Engine.Type)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Engine.Type)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Engine.Weight)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Engine.Weight)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

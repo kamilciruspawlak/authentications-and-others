@@ -1,3 +1,8 @@
+C:\Users\RENT\Desktop\repo2\niewiemcoto\autentykacja_zadanie\autentykacja_zadanie\obj\Debug\autentykacja_zadanie.csprojResolveAssemblyReference.cache
+C:\Users\RENT\Desktop\repo2\niewiemcoto\autentykacja_zadanie\autentykacja_zadanie\obj\Debug\autentykacja_zadanie.Migrations.InitialCreate.resources
+C:\Users\RENT\Desktop\repo2\niewiemcoto\autentykacja_zadanie\autentykacja_zadanie\obj\Debug\autentykacja_zadanie.Migrations.dsaasd.resources
+C:\Users\RENT\Desktop\repo2\niewiemcoto\autentykacja_zadanie\autentykacja_zadanie\obj\Debug\autentykacja_zadanie.Migrations.drugamigracjabopierwszanieposzla.resources
+C:\Users\RENT\Desktop\repo2\niewiemcoto\autentykacja_zadanie\autentykacja_zadanie\obj\Debug\autentykacja_zadanie.csproj.GenerateResource.Cache
 C:\Users\RENT\Desktop\repo2\niewiemcoto\autentykacja_zadanie\autentykacja_zadanie\bin\roslyn\csc.exe
 C:\Users\RENT\Desktop\repo2\niewiemcoto\autentykacja_zadanie\autentykacja_zadanie\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
 C:\Users\RENT\Desktop\repo2\niewiemcoto\autentykacja_zadanie\autentykacja_zadanie\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
@@ -71,6 +76,7 @@ C:\Users\RENT\Desktop\repo2\niewiemcoto\autentykacja_zadanie\autentykacja_zadani
 C:\Users\RENT\Desktop\repo2\niewiemcoto\autentykacja_zadanie\autentykacja_zadanie\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\RENT\Desktop\repo2\niewiemcoto\autentykacja_zadanie\autentykacja_zadanie\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\RENT\Desktop\repo2\niewiemcoto\autentykacja_zadanie\autentykacja_zadanie\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\RENT\Desktop\repo2\niewiemcoto\autentykacja_zadanie\autentykacja_zadanie\obj\Debug\autentykacja_zadanie.csprojResolveAssemblyReference.cache
 C:\Users\RENT\Desktop\repo2\niewiemcoto\autentykacja_zadanie\autentykacja_zadanie\obj\Debug\autentykacja_zadanie.dll
 C:\Users\RENT\Desktop\repo2\niewiemcoto\autentykacja_zadanie\autentykacja_zadanie\obj\Debug\autentykacja_zadanie.pdb
+C:\Users\RENT\Desktop\repo2\niewiemcoto\autentykacja_zadanie\autentykacja_zadanie\bin\FluentValidation.dll
+C:\Users\RENT\Desktop\repo2\niewiemcoto\autentykacja_zadanie\autentykacja_zadanie\bin\FluentValidation.xml
