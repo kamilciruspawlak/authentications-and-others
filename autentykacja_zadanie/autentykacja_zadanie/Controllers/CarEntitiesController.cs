@@ -10,6 +10,9 @@ using autentykacja_zadanie.Models;
 using autentykacja_zadanie.Repository.Interfaces;
 using autentykacja_zadanie.Intetfaces;
 using autentykacja_zadanie.ViewModels;
+using autentykacja_zadanie.ApiConsumer;
+using autentykacja_zadanie.ApiConsumer.Model;
+using System.Threading.Tasks;
 
 namespace autentykacja_zadanie.Controllers
 {
@@ -72,13 +75,18 @@ namespace autentykacja_zadanie.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(VMCars carEntity)
+        public async Task<ActionResult> Create(VMCars carEntity)
         {
             if (ModelState.IsValid)
             {
                 carEntity.Car.ModPerson = _carBusinessLogic.CheckIfUserIsAuthAndReturnName();
                 _carsRepository.Create(carEntity.Car);
-                    return RedirectToAction("Index");
+                var client = new Client();
+                var model = new EmailApiModel();
+                model.To = "ciruss@wp.pl";
+                
+                await client.SendEmail(model);
+                return RedirectToAction("Index");
             }
 
             return View(carEntity);

@@ -32,5 +32,7 @@ namespace autentykacja_zadanie.Models
 
         public System.Data.Entity.DbSet<autentykacja_zadanie.Models.CarEntity> CarEntities { get; set; }
         public System.Data.Entity.DbSet<autentykacja_zadanie.Models.Engine> Engines { get; set; }
+
+        public System.Data.Entity.DbSet<autentykacja_zadanie.ApiConsumer.Model.Performance> Performances { get; set; }
     }
 }

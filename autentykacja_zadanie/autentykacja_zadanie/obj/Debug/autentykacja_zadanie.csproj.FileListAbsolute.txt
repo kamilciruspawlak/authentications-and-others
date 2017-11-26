@@ -1,4 +1,3 @@
-C:\Users\RENT\Desktop\repo2\niewiemcoto\autentykacja_zadanie\autentykacja_zadanie\obj\Debug\autentykacja_zadanie.csprojResolveAssemblyReference.cache
 C:\Users\RENT\Desktop\repo2\niewiemcoto\autentykacja_zadanie\autentykacja_zadanie\obj\Debug\autentykacja_zadanie.Migrations.InitialCreate.resources
 C:\Users\RENT\Desktop\repo2\niewiemcoto\autentykacja_zadanie\autentykacja_zadanie\obj\Debug\autentykacja_zadanie.Migrations.dsaasd.resources
 C:\Users\RENT\Desktop\repo2\niewiemcoto\autentykacja_zadanie\autentykacja_zadanie\obj\Debug\autentykacja_zadanie.Migrations.drugamigracjabopierwszanieposzla.resources
@@ -80,3 +79,12 @@ C:\Users\RENT\Desktop\repo2\niewiemcoto\autentykacja_zadanie\autentykacja_zadani
 C:\Users\RENT\Desktop\repo2\niewiemcoto\autentykacja_zadanie\autentykacja_zadanie\obj\Debug\autentykacja_zadanie.pdb
 C:\Users\RENT\Desktop\repo2\niewiemcoto\autentykacja_zadanie\autentykacja_zadanie\bin\FluentValidation.dll
 C:\Users\RENT\Desktop\repo2\niewiemcoto\autentykacja_zadanie\autentykacja_zadanie\bin\FluentValidation.xml
+C:\Users\RENT\Desktop\repo2\niewiemcoto\autentykacja_zadanie\autentykacja_zadanie\bin\System.Net.Http.dll
+C:\Users\RENT\Desktop\repo2\niewiemcoto\autentykacja_zadanie\autentykacja_zadanie\bin\System.Net.Http.Extensions.dll
+C:\Users\RENT\Desktop\repo2\niewiemcoto\autentykacja_zadanie\autentykacja_zadanie\bin\System.Net.Http.Formatting.dll
+C:\Users\RENT\Desktop\repo2\niewiemcoto\autentykacja_zadanie\autentykacja_zadanie\bin\System.Net.Http.Primitives.dll
+C:\Users\RENT\Desktop\repo2\niewiemcoto\autentykacja_zadanie\autentykacja_zadanie\bin\System.Net.Http.WebRequest.dll
+C:\Users\RENT\Desktop\repo2\niewiemcoto\autentykacja_zadanie\autentykacja_zadanie\bin\System.Net.Http.xml
+C:\Users\RENT\Desktop\repo2\niewiemcoto\autentykacja_zadanie\autentykacja_zadanie\bin\System.Net.Http.WebRequest.xml
+C:\Users\RENT\Desktop\repo2\niewiemcoto\autentykacja_zadanie\autentykacja_zadanie\obj\Debug\autentykacja_zadanie.csprojResolveAssemblyReference.cache
+C:\Users\RENT\Desktop\repo2\niewiemcoto\autentykacja_zadanie\autentykacja_zadanie\obj\Debug\autentykacja_zadanie.Migrations.addmigrationasdasdsdadsad.resources

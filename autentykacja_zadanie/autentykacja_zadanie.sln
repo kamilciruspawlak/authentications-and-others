@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "autentykacja_zadanie", "autentykacja_zadanie\autentykacja_zadanie.csproj", "{61920D00-DA4B-4CD8-8108-E6F74F6740C5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "autentykacja_zadanieWebApi", "autentykacja_zadanieWebApi\autentykacja_zadanieWebApi.csproj", "{AB9BC572-8B94-447D-B496-00910ADE0058}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{61920D00-DA4B-4CD8-8108-E6F74F6740C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61920D00-DA4B-4CD8-8108-E6F74F6740C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61920D00-DA4B-4CD8-8108-E6F74F6740C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB9BC572-8B94-447D-B496-00910ADE0058}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB9BC572-8B94-447D-B496-00910ADE0058}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB9BC572-8B94-447D-B496-00910ADE0058}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB9BC572-8B94-447D-B496-00910ADE0058}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
